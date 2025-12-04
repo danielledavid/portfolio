@@ -8,15 +8,18 @@ export const SkillsSection = () => {
         
 
         <div className="group relative rounded-lg">
-          <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
-            <div className="w-10 h-10 mb-2 flex items-center justify-center">
+<div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg 
+    bg-gray-100/70 dark:bg-white/5 
+    hover:bg-gray-200/90 dark:hover:bg-white/10 
+    transition-all duration-300 hover:scale-105 overflow-hidden">           
+     <div className="w-10 h-10 mb-2 flex items-center justify-center">
             <img
   alt="Excel"
   className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all"
   src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg"
 />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">Excel</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Excel</span>
           </div>
         </div>
 
@@ -26,7 +29,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="SQL" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/sqlite/003B57" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">SQL</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">SQL</span>
           </div>
         </div>
 
@@ -35,7 +38,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="Python" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/python/3776AB" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">Python</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Python</span>
           </div>
         </div>
 
@@ -46,7 +49,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="Big Query" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/googlebigquery/669DF6" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">Google BigQuery</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Google BigQuery</span>
           </div>
         </div>
 
@@ -56,7 +59,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="Looker Studio" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/looker/4285F4" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">Looker Studio</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Looker Studio</span>
           </div>
         </div>
 
@@ -68,7 +71,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="Tableau" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.brandfetch.io/id9sYMA_Im/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">Tableau</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Tableau</span>
           </div>
         </div>
 
@@ -78,7 +81,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="App Sheet" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/google-appsheet-logo-icon.png" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">App Sheet</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">App Sheet</span>
           </div>
         </div>
 
@@ -88,7 +91,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="Google Cloud Platform" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">Google Cloud Platform</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Google Cloud Platform</span>
           </div>
         </div>
 
@@ -98,7 +101,7 @@ export const SkillsSection = () => {
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
               <img alt="PowerBI" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://img.icons8.com/?size=100&id=70667&format=png&color=000000" />
             </div>
-            <span className="text-xs text-white/70 text-center font-medium">PowerBI</span>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">PowerBI</span>
           </div>
         </div>
 
