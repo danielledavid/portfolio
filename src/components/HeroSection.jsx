@@ -1,5 +1,6 @@
 
 import { ArrowDown } from "lucide-react";
+import SocialLinks from "@/components/SocialLinks";
 
 export const HeroSection = () => {
     return (
@@ -17,10 +18,14 @@ export const HeroSection = () => {
                         David</span>
                 </h1>
         
-                <p className="mt-8 mb-8 text-lg md:text-xl text-muted-forehround max-w-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-                    I build data-solutions for businesses all over the world.
-                </p>
+               <p className="mt-8 mb-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-4">
+  I automate and build data-solutions for businesses all over the world.</p>
+
                 <div className="opacity-0 animate-fade-in-delay-4">
+                <SocialLinks />
+                </div>
+
+                <div className="opacity-0 animate-fade-in-delay-4 mt-8">
                     <a href="#projects" className="cosmic-button">View My Work</a>
                 </div>
             </div>

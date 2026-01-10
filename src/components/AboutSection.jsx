@@ -13,7 +13,7 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">Data Engineering, Automation, 
+                    <h3 className="text-2xl font-semibold">Data Processing, Automation, 
                         <br></br>& Problem-Solving</h3>
                         
                         <p className="text-muted-foreground">I've been building things I was 11.
@@ -62,7 +62,7 @@ export const AboutSection = () => {
                                 <Database className="h-6 -6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Data</h4>
+                                <h4 className="font-semibold text-lg">Data Processing</h4>
                                 <p className="text-muted-foreground">
                                     Cleaning, analyzing, and transforming raw data into insights that drive real decisions.
                                 </p>

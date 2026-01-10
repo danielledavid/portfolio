@@ -12,7 +12,7 @@ const navItems = [
     {name: "Contact", href: "#mailto:danielle.david@alumni.ateneo.edu"}
 ]
 
-export const NavBar = () => {
+export default function NavBar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 

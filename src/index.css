@@ -165,4 +165,19 @@
   text-align: center;
 }
 
+@layer components {
+  .prose h3 {
+  @apply mt-8 mb-3 text-xl md:text-2xl font-semibold
+         border-l-2 border-primary pl-4 text-foreground;
+  }  
+
+
+  .prose p {
+    @apply text-foreground/80 leading-relaxed;
+  }
+
+  .prose p + p {
+    @apply mt-4;
+  }
+}
 

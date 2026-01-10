@@ -16,7 +16,7 @@ export const SkillsSection = () => {
             <img
   alt="Excel"
   className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all"
-  src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg"
+  src="https://cdn.simpleicons.org/googlesheets/7969c7"
 />
             </div>
             <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Excel</span>
@@ -27,7 +27,7 @@ export const SkillsSection = () => {
         <div className="group relative rounded-lg">
           <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
-              <img alt="SQL" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/sqlite/003B57" />
+              <img alt="SQL" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/sqlite/7969c7" />
             </div>
             <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">SQL</span>
           </div>
@@ -36,9 +36,38 @@ export const SkillsSection = () => {
         <div className="group relative rounded-lg">
           <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
-              <img alt="Python" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/python/3776AB" />
+              <img alt="Python" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/python/7969c7" />
             </div>
             <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Python</span>
+          </div>
+        </div>
+
+        <div className="group relative rounded-lg">
+          <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
+            <div className="w-10 h-10 mb-2 flex items-center justify-center">
+              <img alt="Python" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/n8n/7969c7" />
+            </div>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">n8n</span>
+          </div>
+        </div>
+
+
+        <div className="group relative rounded-lg">
+          <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
+            <div className="w-10 h-10 mb-2 flex items-center justify-center">
+              <img alt="Python" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/zapier/7969c7" />
+            </div>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Zapier</span>
+          </div>
+        </div>
+
+
+        <div className="group relative rounded-lg">
+          <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
+            <div className="w-10 h-10 mb-2 flex items-center justify-center">
+              <img alt="Python" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/make/7969c7" />
+            </div>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Make</span>
           </div>
         </div>
 
@@ -47,7 +76,7 @@ export const SkillsSection = () => {
                 <div className="group relative rounded-lg">
           <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
-              <img alt="Big Query" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/googlebigquery/669DF6" />
+              <img alt="Big Query" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/googlebigquery/7969c7" />
             </div>
             <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Google BigQuery</span>
           </div>
@@ -57,7 +86,7 @@ export const SkillsSection = () => {
         <div className="group relative rounded-lg">
           <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
             <div className="w-10 h-10 mb-2 flex items-center justify-center">
-              <img alt="Looker Studio" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/looker/4285F4" />
+              <img alt="Looker Studio" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/looker/7969c7" />
             </div>
             <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Looker Studio</span>
           </div>
@@ -95,6 +124,15 @@ export const SkillsSection = () => {
           </div>
         </div>
 
+        <div className="group relative rounded-lg">
+          <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
+            <div className="w-10 h-10 mb-2 flex items-center justify-center">
+              <img alt="Google Cloud Platform" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/googlesheets/7969c7" />
+            </div>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Google Sheets</span>
+          </div>
+        </div>
+
 
                                         <div className="group relative rounded-lg">
           <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
@@ -104,6 +142,20 @@ export const SkillsSection = () => {
             <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">PowerBI</span>
           </div>
         </div>
+
+
+
+
+
+        <div className="group relative rounded-lg">
+          <div className="relative z-10 flex flex-col items-center justify-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-105 overflow-hidden">
+            <div className="w-10 h-10 mb-2 flex items-center justify-center">
+              <img alt="PowerBI" className="w-full h-full object-contain filter brightness-90 group-hover:brightness-110 transition-all" src="https://cdn.simpleicons.org/asana/7969c7" />
+            </div>
+            <span className="text-xs text-foreground/70 group-hover:text-foreground text-center font-medium">Asana</span>
+          </div>
+        </div>
+
 
 
       </div>
